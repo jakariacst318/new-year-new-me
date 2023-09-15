@@ -1,0 +1,80 @@
+* {
+    font-family: Work Sans;
+}
+
+.banner {
+    background-image: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
+    height: 800px;
+    padding-left: 150px;
+    padding-bottom: 140px;
+
+}
+
+.banner h2 {
+    color: var(--Dark-01, #151414);
+    text-align: right;
+    padding: 200px 100px 0px 600px;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.banner p {
+    color: var(--Dark-02, #444343);
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 2px 100px 0px 650px;
+    margin-top: 10px;
+}
+
+.banner button {
+    color: #fff;
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+
+}
+
+.btn {
+
+    text-align: right;
+    padding-right: 100px;
+    padding-top: 23px;
+}
+
+.person {
+    display: flex;
+    align-items: center;
+    gap: 130px;
+}
+
+.person h2 {
+    width: 288px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.person p {
+    width: 340px;
+    color: var(--Dark-02, #444343);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.chekar{
+    width: 24px;
+    height: 24px;
+
+}
+.chekar-color{
+    color: #09e739;
+}
